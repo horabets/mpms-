@@ -1,0 +1,125 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #000;
+    color: #fff;
+}
+
+.header {
+    background: linear-gradient(to right, #ff6600, #000);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.header h1 {
+    font-size: 4rem;
+    text-transform: uppercase;
+}
+
+.header p {
+    font-size: 1.5rem;
+}
+
+.btn-3d {
+    position: relative;
+    background-color: #ff6600;
+    border: none;
+    color: #fff;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    transition: transform 0.3s ease;
+    box-shadow: 0 5px 15px rgba(255, 102, 0, 0.6);
+}
+
+.btn-3d:hover {
+    transform: translateY(-5px);
+}
+
+#about img {
+   width: 800px;
+   margin-bottom: -48px;
+}
+
+#benefits i {
+    color: #ff6600;
+    margin-bottom: 15px;
+}
+
+footer {
+    background-color: rgb(255, 0, 0)e0e;
+}
+
+@media (max-width: 768px) {
+    .header h1 {
+        font-size: 3rem;
+    }
+
+    .header p {
+        font-size: 1.2rem;
+    }
+}
+
+#guarantee {
+    background-color: #f8f9fa;
+    color: #333;
+    padding: 60px 0;
+}
+
+#guarantee h2 {
+    color: #ff6600;
+    margin-bottom: 20px;
+}
+
+#guarantee i {
+    color: #ff6600;
+    margin-bottom: 15px;
+}
+
+#guarantee p {
+    color: #666;
+}
+
+#testimonials {
+    background-color: #333;
+    color: #fff;
+    padding: 60px 0;
+}
+
+#testimonials h2 {
+    color: #ff6600;
+    margin-bottom: 20px;
+}
+
+.testimonial-item {
+    padding: 20px;
+    border: 1px solid #ff6600;
+    border-radius: 10px;
+    margin: 0 auto;
+    max-width: 600px;
+    background-color: #444;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    filter: invert(1);
+}
+
+#urgency-bar {
+    background-color: #ff6600;
+    color: #fff;
+    font-size: 1.2em;
+    z-index: 1050;
+}
+
+body {
+    padding-top: 50px; /* Para evitar que o conteúdo seja ocultado pela barra fixa */
+}
+
+.link-pl {
+    display: inline-block;
+    margin-right: 10px; /* Ajuste o espaçamento conforme desejado */
+  }
